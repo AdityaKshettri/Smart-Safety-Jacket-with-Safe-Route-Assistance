@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width,initial-scale=1.0">
+		<meta charset="utf-8">
+		<title>Smart Safety Jacket</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+		<link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great|Handlee|Julius+Sans+One|Orbitron" rel="stylesheet">
+		<link rel="stylesheet" href="css/style.css">
+
+		<header>
+			<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+				<div class="container">
+					<img src="img/logo/logo.jpg" width="50" height="50">
+					<a class="navbar-brand" href="index.html" style="font-family: 'orbitron',sans-serif">Smart Safety Jacket</a>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarSupportedContent">
+						<ul class="navbar-nav ml-lg-auto">
+							<li class="nav-item active">
+							<a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+							</li>
+							<li class="nav-item" id="dashboard">
+								<a class="nav-link" href="html/dashboard.html">Dashboard</a>
+							</li>
+							<li class="nav-item" id="safeRoutes">
+								<a class="nav-link" href="html/safeRoutes.html">Safe-Route-Assistance</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#desc">Working</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#price">Price</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#team">Team</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#tech">Tech</a>
+							</li>
+							<li class="nav-item" id="login">
+								<a class="nav-link" href="html/login.html">Login</a>
+							</li>
+							<li class="nav-item" id="logout">
+								<a class="nav-link" href="index.html" onclick="logout()">Logout</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</header>
+		<script src="js/logout.js"></script>
+
+	</head>
+
+	<body>
+		<div id="main-con">
+			<div class="jumbotron jumbotron-fluid height100p banner" id="home">
+				<div id="particles-js">
+					<div class="container h100">
+						<div class="contentBox h100">
+						<div id="text">
+							<h1 style="text-align:center; font-family: 'orbitron',sans-serif;">
+								Smart Safety Jacket with Safe Route Assistance App
+							</h1>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<section class="sec1" id="desc">
+			<div class="container">
+				<div class="row">
+					<div class="offset-sm-2 col-sm-8">
+						<div class="headerText">
+							<h1 style="text-align: center;font-family: 'Handlee', cursive; padding: 25px;margin-top:90px">Let's see how it works!</h1>
+							<div style="display: grid; grid-template-columns: auto auto;grid-column-gap: 100px;position: relative;">
+								<img src="img/logo/machine.gif" style="max-width: 100%">
+								<p style="width: 100%;text-align: center;line-height: 20px;">The objective of our project is to design a multipurpose wearable tech jacket that will assist the user for public safety against health issues as well as crime. Live tracking, temperature regulation, continuous health monitoring, poisonous or odourless gases detection, accident detection etc. are the metrics which will ensure public safety. But instead of keeping any extra kit or baggage, we planned to put our system into a jacket, which will serve both as a wearable as well as a safety gadget.</p>
+							</div>
+							<div style="display: grid; grid-template-columns: auto auto;grid-column-gap: 400px;">
+								<button class="btn btn1"><a href="html/working.html" style="text-decoration: none;color: black;margin: 0">KNOW MORE</a></button>
+								<button class="btn btn1"><a href="" style="text-decoration: none;color: black;margin: 0">DEMO</a></button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="sec2" id="price">
+			<div class="container h100">
+				<div class="price-div" style="text-align: center;">
+					<h2 id="p1">PRICING : &#x20b9;3000/&dollar;45</h2>
+					<img src="img/diagram/Jacket.jpg" width="400" height="350" style="-webkit-box-shadow: -20px 20px 21px 1px rgba(0,0,0,1);
+					-moz-box-shadow: -20px 20px 21px 1px rgba(0,0,0,1);
+					box-shadow: -20px 20px 21px 1px rgba(0,0,0,1);">
+					<br>
+					<a href="html/costAnalysis.html" id="p1"><button class="btn">Cost Analysis</button></a>
+				</div>
+			</div>
+		</section>
+		
+		<section id="team" style="background-color: rgb(190, 129, 206);">
+		<br>
+		<br>
+		<br>
+		<hr>
+		<div class="row">
+			<div class="column2">
+				<div class="card" style="-webkit-box-shadow: -20px 20px 21px 1px rgba(0,0,0,1);
+				-moz-box-shadow: -20px 20px 21px 1px rgba(0,0,0,1);
+				box-shadow: -20px 20px 21px 1px rgba(0,0,0,1);">
+					<img src="img/team/aditya.jpg" class="img-responsive" alt="Aditya" style="width:100%;">
+					<h2>Aditya Kshettri</h2>
+					<p>Hardware & Software Developer</p>
+					<p>
+						<a href="https://github.com/AdityaKshettri">
+							<button>Github</button>
+						</a>
+						<a href="https://www.linkedin.com/in/aditya-kshettri-901097144">
+							<button>LinkedIn</button>
+						</a>
+					</p>
+				</div>
+			</div>
+			<div class="column2">
+				<div class="card" style="-webkit-box-shadow: -20px 20px 21px 1px rgba(0,0,0,1);
+				-moz-box-shadow: -20px 20px 21px 1px rgba(0,0,0,1);
+				box-shadow: -20px 20px 21px 1px rgba(0,0,0,1);">
+					<img src="img/team/rakesh.jpg" class="img-responsive" alt="Rakesh" style="width:100%">
+					<h2>Rakesh Acharya D.</h2>
+					<p>Software Developer</p>
+					<p>
+						<a href="https://github.com/rakeshacharya-d">
+							<button>Github</button>
+						</a>
+						<a href="https://www.linkedin.com/mwlite/in/d-rakesh-acharya-396390135">
+							<button>LinkedIn</button>
+						</a>
+					</p>
+				</div>
+			</div>
+			<div class="column2">
+				<div class="card" style="-webkit-box-shadow: -20px 20px 21px 1px rgba(0,0,0,1);
+				-moz-box-shadow: -20px 20px 21px 1px rgba(0,0,0,1);
+				box-shadow: -20px 20px 21px 1px rgba(0,0,0,1);">
+					<img src="img/team/vidit.jpg" class="img-responsive" alt="Vidit" style="width:100%;">
+					<h2>Vidit Kotkar</h2>
+					<p>Software Developer</p>
+					<p>
+						<a href="https://github.com/VIditk3">
+							<button>Github</button>
+						</a>
+						<a href="https://in.linkedin.com/in/vidit-kotkar-4b9968141">
+							<button>LinkedIn</button>
+						</a>
+					</p>
+				</div>
+			</div>
+		</div>
+		<br>
+		<hr>
+		<br>
+		</section>
+
+		<section id="tech">
+			<br>
+			<br>
+			<br>
+			<br>
+			<div class="row">
+				<div class="column4">
+					<div class="card" style="-webkit-box-shadow: -20px 20px 21px 1px rgba(0,0,0,1);
+					-moz-box-shadow: -20px 20px 21px 1px rgba(0,0,0,1);
+					box-shadow: -20px 20px 21px 1px rgba(0,0,0,1);">
+						<img src="img/tech/arduino.png" class="img-responsive" alt="Aditya" style="width:100%;">
+					</div>
+				</div>
+				<div class="column4">
+					<div class="card" style="-webkit-box-shadow: -20px 20px 21px 1px rgba(0,0,0,1);
+					-moz-box-shadow: -20px 20px 21px 1px rgba(0,0,0,1);
+					box-shadow: -20px 20px 21px 1px rgba(0,0,0,1);">
+						<img src="img/tech/thingspeak.png" class="img-responsive" alt="Aditya" style="width:100%;">
+					</div>
+				</div>
+				<div class="column4">
+					<div class="card" style="-webkit-box-shadow: -20px 20px 21px 1px rgba(0,0,0,1);
+					-moz-box-shadow: -20px 20px 21px 1px rgba(0,0,0,1);
+					box-shadow: -20px 20px 21px 1px rgba(0,0,0,1);">
+						<img src="img/tech/IOT.jpg" class="img-responsive" alt="Aditya" style="width:100%;">
+					</div>
+				</div>
+				<div class="column4">
+					<div class="card" style="-webkit-box-shadow: -20px 20px 21px 1px rgba(0,0,0,1);
+					-moz-box-shadow: -20px 20px 21px 1px rgba(0,0,0,1);
+					box-shadow: -20px 20px 21px 1px rgba(0,0,0,1);">
+						<img src="img/tech/maps.jpg" class="img-responsive" alt="Aditya" style="width:100%;">
+					</div>
+				</div>
+			</div>
+			<br>
+			<br>
+			<div class="row">
+				<div class="column4">
+					<div class="card" style="-webkit-box-shadow: -20px 20px 21px 1px rgba(0,0,0,1);
+					-moz-box-shadow: -20px 20px 21px 1px rgba(0,0,0,1);
+					box-shadow: -20px 20px 21px 1px rgba(0,0,0,1);">
+						<img src="img/tech/html.png" class="img-responsive" alt="Aditya" style="width:100%;">
+					</div>
+				</div>
+				<div class="column4">
+					<div class="card" style="-webkit-box-shadow: -20px 20px 21px 1px rgba(0,0,0,1);
+					-moz-box-shadow: -20px 20px 21px 1px rgba(0,0,0,1);
+					box-shadow: -20px 20px 21px 1px rgba(0,0,0,1);">
+						<img src="img/tech/css.png" class="img-responsive" alt="Aditya" style="width:100%;">
+					</div>
+				</div>
+				<div class="column4">
+					<div class="card" style="-webkit-box-shadow: -20px 20px 21px 1px rgba(0,0,0,1);
+					-moz-box-shadow: -20px 20px 21px 1px rgba(0,0,0,1);
+					box-shadow: -20px 20px 21px 1px rgba(0,0,0,1);">
+						<img src="img/tech/js.jpg" class="img-responsive" alt="Aditya" style="width:100%;">
+					</div>
+				</div>
+				<div class="column4">
+					<div class="card" style="-webkit-box-shadow: -20px 20px 21px 1px rgba(0,0,0,1);
+					-moz-box-shadow: -20px 20px 21px 1px rgba(0,0,0,1);
+					box-shadow: -20px 20px 21px 1px rgba(0,0,0,1);">
+						<img src="img/tech/firebase.png" class="img-responsive" alt="Aditya" style="width:100%;">
+					</div>
+				</div>
+			</div>
+			<hr>
+			<p style="text-align: center; text-decoration-color: black;">(c)Copyright</p>
+		</section>
+
+		<script type="text/javascript" src="js/particles.js"></script>
+		<script type="text/javascript" src="js/app.js"></script>
+		
+	</body>
+</html>

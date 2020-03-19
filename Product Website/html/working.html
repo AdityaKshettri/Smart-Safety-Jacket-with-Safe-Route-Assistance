@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width,initial-scale=1.0">
+		<meta charset="utf-8">
+		<title>Smart Safety Jacket</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great|Handlee|Julius+Sans+One|Orbitron" rel="stylesheet">
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js">
+		<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js">
+		<link rel="stylesheet" href="../page-scroll-effects-master/css/reset.css">
+		<link rel="stylesheet" href="../page-scroll-effects-master/css/style.css">
+		<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+		<script src="../page-scroll-effects-master/js/modernizr.js"></script>
+		<link rel="stylesheet" href="../css/style.css">
+
+		<header>
+		<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+			<div class="container">
+				<img src="../img/logo/logo.jpg" width="50" height="50">
+				<a class="navbar-brand" href="../index.html" style="font-size: larger; font-family: 'orbitron',sans-serif">Smart Safety Jacket</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav ml-lg-auto">
+					<li class="nav-item">
+					<a class="nav-link" href="../index.html">Home</a>
+					</li>
+					<li class="nav-item" id="dashboard">
+						<a class="nav-link" href="dashboard.html">Dashboard</a>
+					</li>
+					<li class="nav-item" id="safeRoutes">
+                        <a class="nav-link" href="safeRoutes.html">Safe-Route-Assistance</a>
+                    </li>
+					<li class="nav-item active">
+					<a class="nav-link" href="../index.html#desc">Working<span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+					<a class="nav-link" href="../index.html#price">Price</a>
+					</li>
+					<li class="nav-item">
+					<a class="nav-link" href="../index.html#team">Team</a>
+					</li>
+					<li class="nav-item">
+                        <a class="nav-link" href="../index.html#tech">Tech</a>
+					</li>
+					<li class="nav-item" id="login">
+                        <a class="nav-link" href="login.html">Login</a>
+                    </li>
+                    <li class="nav-item" id="logout">
+                        <a class="nav-link" href="../index.html" onclick="logout()">Logout</a>
+                    </li> 
+				</ul>
+				</div>
+			</div>
+		</nav>
+		</header>
+		<script src="../js/logout.js"></script>
+	</head>
+
+	<body data-hijacking="off" data-animation="rotate">
+
+		<section class="cd-section visible">
+			<div class="div" style="display: grid; grid-template-columns: auto auto;grid-column-gap: 100px;height: 100vh;justify-content: center;align-items: center">
+				<img src="../img/diagram/block.jpg" width="500" height="500" style="max-width: 100%;margin: 100px;-webkit-box-shadow: -16px 13px 25px 0px rgba(0,0,0,0.75);
+				-moz-box-shadow: -16px 13px 25px 0px rgba(0,0,0,0.75);
+				box-shadow: -16px 13px 25px 0px rgba(0,0,0,0.75);">
+				<p style="margin:50px;font-family: 'Cabin Sketch',cursive;font-size: 4rem;text-align: center">This is the 'Block Diagram' of our Jacket. It shows us how the sensors and Nodemcu are connected to the Arduino Uno.</p>
+			</div>
+		</section>
+
+		<section class="cd-section visible">
+			<div class="div" style="display: grid; grid-template-columns: auto auto;grid-column-gap: 100px;height: 100vh;justify-content: center;align-items: center">
+				<img src="../img/diagram/working.jpg" width="600" height="500" style="max-width: 100%;margin: 100px;-webkit-box-shadow: -16px 13px 25px 0px rgba(0,0,0,0.75);
+				-moz-box-shadow: -16px 13px 25px 0px rgba(0,0,0,0.75);
+				box-shadow: -16px 13px 25px 0px rgba(0,0,0,0.75);">
+				<p style="margin:50px;font-family: 'Cabin Sketch',cursive;font-size: 4rem;text-align: center">This is the 'Detailed Working' of our Smart Jacket. It shows us the working of each and every sensor in our jacket.</p>
+			</div>
+		</section>
+
+		<section class="cd-section visible">
+			<div class="div" style="display: grid; grid-template-columns: auto auto;grid-column-gap: 100px;height: 100vh;justify-content: center;align-items: center">
+				<img src="../img/diagram/flowchart.jpg" width="600" height="480" style="max-width: 100%;margin: 100px;-webkit-box-shadow: -16px 13px 25px 0px rgba(0,0,0,0.75);
+				-moz-box-shadow: -16px 13px 25px 0px rgba(0,0,0,0.75);
+				box-shadow: -16px 13px 25px 0px rgba(0,0,0,0.75);">
+				<p style="margin:50px;font-family: 'Cabin Sketch',cursive;font-size: 4rem;text-align: center">This is the 'Flow Chart' of our Jacket. It shows us the control flow design of the working of our jacket.</p>
+			</div>
+		</section>
+
+		<section class="cd-section visible">
+			<div class="div" style="display: grid; grid-template-columns: auto auto;grid-column-gap: 100px;height: 100vh;justify-content: center;align-items: center">
+				<img src="../img/diagram/jacketDesign.jpg" width="500" height="450" style="max-width: 100%;margin: 100px;-webkit-box-shadow: -16px 13px 25px 0px rgba(0,0,0,0.75);
+				-moz-box-shadow: -16px 13px 25px 0px rgba(0,0,0,0.75);
+				box-shadow: -16px 13px 25px 0px rgba(0,0,0,0.75);">
+				<p style="margin:50px;font-family: 'Cabin Sketch',cursive;font-size: 4rem;text-align: center">This is the 'Jacket Design' in our Project. It shows us where the sensors are connected in the jacket.</p>
+			</div>
+		</section>
+
+		<section class="cd-section visible">
+			<div class="div" style="display: grid; grid-template-columns: auto auto;grid-column-gap: 100px;height: 100vh;justify-content: center;align-items: center">
+				<img src="../img/diagram/jacketBlockDiagram.jpg" width="600" height="370" style="max-width: 100%;margin: 100px;-webkit-box-shadow: -16px 13px 25px 0px rgba(0,0,0,0.75);
+				-moz-box-shadow: -16px 13px 25px 0px rgba(0,0,0,0.75);
+				box-shadow: -16px 13px 25px 0px rgba(0,0,0,0.75);">
+				<p style="margin:50px;font-family: 'Cabin Sketch',cursive;font-size: 4rem;text-align: center">This is the 'Jacket Block Diagram' of our Project. It shows us how we have designed our jacket.</p>
+			</div>
+		</section>
+
+		<section class="cd-section visible">
+			<div class="div" style="display: grid; grid-template-columns: auto auto;grid-column-gap: 100px;height: 100vh;justify-content: center;align-items: center">
+				<img src="../img/diagram/circuit.jpg" width="600" height="450" style="max-width: 100%;margin: 100px;-webkit-box-shadow: -16px 13px 25px 0px rgba(0,0,0,0.75);
+				-moz-box-shadow: -16px 13px 25px 0px rgba(0,0,0,0.75);
+				box-shadow: -16px 13px 25px 0px rgba(0,0,0,0.75);">
+				<p style="margin:50px;font-family: 'Cabin Sketch',cursive;font-size: 4rem;text-align: center">This is the 'Circuit Diagram' of our Project. It shows the exact Analog and Digital pins on the Arduino Uno at which all the sensors are connected.</p>
+			</div>
+		</section>
+	
+		<section class="cd-section visible">
+			<div class="div" style="display: grid; grid-template-columns: auto auto;grid-column-gap: 100px;height: 100vh;justify-content: center;align-items: center">
+				<img src="../img/diagram/safeRoutes.jpg" width="400" height="500" style="max-width: 100%;margin: 100px;-webkit-box-shadow: -16px 13px 25px 0px rgba(0,0,0,0.75);
+				-moz-box-shadow: -16px 13px 25px 0px rgba(0,0,0,0.75);
+				box-shadow: -16px 13px 25px 0px rgba(0,0,0,0.75);">
+				<p style="margin:50px;font-family: 'Cabin Sketch',cursive;font-size: 4rem;text-align: center">It shows the working of 'Safe-Route-Assistance' Application that is an additional feature in our jacket, which determines the safest route from a source to destination.</p>
+			</div>
+		</section>
+	
+	
+	
+		<nav>
+			<ul class="cd-vertical-nav">
+				<li><a href="#0" class="cd-prev inactive">Next</a></li>
+				<li><a href="#0" class="cd-next">Prev</a></li>
+			</ul>
+		</nav> <!-- .cd-vertical-nav -->
+	<script src="../page-scroll-effects-master/js/jquery-2.1.4.js"></script>
+	<script src="../page-scroll-effects-master/js/velocity.min.js"></script>
+	<script src="../page-scroll-effects-master/js/velocity.ui.min.js"></script>
+	<script src="../page-scroll-effects-master/js/main.js"></script> <!-- Resource jQuery -->
+
+		<hr>
+		<p style="text-align: center; text-decoration-color: black;">(c)Copyright</p>
+	</body>
+</html>

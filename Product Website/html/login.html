@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width,initial-scale=1.0">
+		<meta charset="utf-8">
+		<title>Smart Safety Jacket</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+		<link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great|Handlee|Julius+Sans+One|Orbitron" rel="stylesheet">
+        <link rel="stylesheet" href="../css/style.css">
+
+
+		<header>
+			<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+				<div class="container">
+					<img src="../img/logo/logo.jpg" width="50" height="50">
+					<a class="navbar-brand" href="../index.html" style="font-family: 'orbitron',sans-serif">Smart Safety Jacket</a>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav ml-lg-auto">
+						<li class="nav-item">
+						<a class="nav-link" href="../index.html">Home</a>
+						</li>
+						<li class="nav-item">
+						<a class="nav-link" href="../index.html#desc">Working</a>
+						</li>
+						<li class="nav-item">
+						<a class="nav-link" href="../index.html#price">Price</a>
+						</li>
+						<li class="nav-item">
+						<a class="nav-link" href="../index.html#team">Team</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html#tech">Tech</a>
+                        </li>
+                        <li class="nav-item active" id="login">
+                            <a class="nav-link" href="login.html">Login<span class="sr-only">(current)</span></a>
+                        </li>
+					</ul>
+					</div>
+				</div>
+			</nav>
+		</header>
+	</head>
+
+    <body style="background-color: rgb(89, 61, 167);">
+        <br>
+        <br>
+        <br>
+        <br>
+        <section>
+            <div class="row">
+                <div class="column3">
+                    <div class="card" style="-webkit-box-shadow: -20px 20px 21px 1px rgba(0,0,0,1);
+                    -moz-box-shadow: -20px 20px 21px 1px rgba(0,0,0,1);
+                    box-shadow: -20px 20px 21px 1px rgba(0,0,0,1);">
+                        <img src="../img/logo/style.png" height="450" class="img-responsive" alt="Jacket" style="width:100%;">
+                    </div>
+                </div>
+                <div class="column3">
+                    <div class="card" style="-webkit-box-shadow: -20px 20px 21px 1px rgba(0,0,0,1);
+                    -moz-box-shadow: -20px 20px 21px 1px rgba(0,0,0,1);
+                    box-shadow: -20px 20px 21px 1px rgba(0,0,0,1);">
+                    <div class="header">
+                        <h1>Login</h1>
+                    </div>
+                    <hr>
+                    <label>Email</label>
+                    <input type="email" placeholder="Email..." id="email_field" />
+                    <label>Password</label>
+                    <input type="password" placeholder="Password..." id="password_field" />
+                    <br>
+                    <button class="button" onclick="login()">Login</button>
+                    <hr>
+                    <img src="../img/tech/firebase.png" width="75" height="75" class="center">
+                    <p>Firebase Authentication</p>
+                    </div>
+                </div>
+            </div>
+            <br>
+		<hr>
+		<p style="text-align: center; text-decoration-color: black;">(c)Copyright</p>
+		<br>
+        </section>
+        <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+        <script src="../js/firebaseCredentials.js"></script>
+        <script src="../js/login.js"></script>
+    </body>
+</html>
